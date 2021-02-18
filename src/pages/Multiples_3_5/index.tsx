@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../../components/Button';
 
-const Multiples: React.FC = (props) => {
+const Multiples: React.FC = () => {
   const [result, setResult] = React.useState<number>(0)
 
   const handleCalculate = () => {
