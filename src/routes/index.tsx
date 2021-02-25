@@ -4,6 +4,7 @@ import Dashboard from '../pages/Dashboard';
 import Multiples from '../pages/Multiples_3_5';
 import Primes from '../pages/10001_st_prime';
 import Large from '../pages/Large_Sum';
+import NumberLetterCounts from '../pages/Number_letter_counts'
 
 const Routes: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Routes: React.FC = () => {
       <Route exact path="/id-1" component={Multiples} />
       <Route exact path="/id-7" component={Primes} />
       <Route exact path="/id-13" component={Large} />
+      <Route exact path="/id-17" component={NumberLetterCounts} />
     </Switch>
   )
 }

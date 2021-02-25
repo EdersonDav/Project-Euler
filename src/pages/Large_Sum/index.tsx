@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../components/Button';
 import { number } from './number'
 
-const Prime: React.FC = () => {
+const Large: React.FC = () => {
   const [result, setResult] = React.useState<number>(0)
 
   const handleCalculate = () => {
@@ -26,4 +26,4 @@ const Prime: React.FC = () => {
     </div>
   )
 }
-export default Prime
+export default Large
