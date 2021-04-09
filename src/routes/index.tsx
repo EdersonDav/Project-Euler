@@ -4,14 +4,16 @@ import Dashboard from '../pages/Dashboard';
 import Multiples from '../pages/Multiples_3_5';
 import Primes from '../pages/10001_st_prime';
 import Large from '../pages/Large_Sum';
-import NumberLetterCounts from '../pages/Number_letter_counts'
-import FibonacciDigit1000 from '../pages/1000-digit-Fibonacci-number'
+import NumberLetterCounts from '../pages/Number_letter_counts';
+import FibonacciDigit1000 from '../pages/1000-digit-Fibonacci-number';
+import EvenFibonaccinumbers from '../pages/Even_Fibonacci_numbers';
 
 const Routes: React.FC = () => {
   return (
     <Switch>
       <Route exact path="/" component={Dashboard} />
       <Route exact path="/id-1" component={Multiples} />
+      <Route exact path="/id-2" component={EvenFibonaccinumbers} />
       <Route exact path="/id-7" component={Primes} />
       <Route exact path="/id-13" component={Large} />
       <Route exact path="/id-17" component={NumberLetterCounts} />
