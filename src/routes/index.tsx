@@ -7,6 +7,8 @@ import Large from '../pages/Large_Sum';
 import NumberLetterCounts from '../pages/Number_letter_counts';
 import FibonacciDigit1000 from '../pages/1000-digit-Fibonacci-number';
 import EvenFibonaccinumbers from '../pages/Even_Fibonacci_numbers';
+import LargeFactor from '../pages/Large_factor';
+
 
 const Routes: React.FC = () => {
   return (
@@ -14,6 +16,7 @@ const Routes: React.FC = () => {
       <Route exact path="/" component={Dashboard} />
       <Route exact path="/id-1" component={Multiples} />
       <Route exact path="/id-2" component={EvenFibonaccinumbers} />
+      <Route exact path="/id-3" component={LargeFactor} />
       <Route exact path="/id-7" component={Primes} />
       <Route exact path="/id-13" component={Large} />
       <Route exact path="/id-17" component={NumberLetterCounts} />
