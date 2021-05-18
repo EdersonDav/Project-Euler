@@ -13,6 +13,8 @@ const Large: React.FC = () => {
     let result = '';
     for (let i = 0; i < 10; i++) {
       result += BigInt(numberResult).toString()[i]
+      console.log(result);
+
     }
     setResult(Number(result));
 

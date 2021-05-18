@@ -13,6 +13,7 @@ import SmallestMultiple from '../pages/Smallest_multiple';
 import SumSquareDifference from '../pages/Sum_square_difference';
 import LargestProductInSeries from '../pages/Largest_product_in_a_series';
 import SpecialPythagoreanTriplet from '../pages/Special_Pythagorean_triplet';
+import SummationPrimes from '../pages/Summation_of_primes';
 
 
 
@@ -29,6 +30,7 @@ const Routes: React.FC = () => {
       <Route exact path="/id-7" component={Primes} />
       <Route exact path="/id-8" component={LargestProductInSeries} />
       <Route exact path="/id-9" component={SpecialPythagoreanTriplet} />
+      <Route exact path="/id-10" component={SummationPrimes} />
       <Route exact path="/id-13" component={Large} />
       <Route exact path="/id-17" component={NumberLetterCounts} />
       <Route exact path="/id-25" component={FibonacciDigit1000} />
