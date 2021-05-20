@@ -15,6 +15,7 @@ import LargestProductInSeries from '../pages/Largest_product_in_a_series';
 import SpecialPythagoreanTriplet from '../pages/Special_Pythagorean_triplet';
 import SummationPrimes from '../pages/Summation_of_primes';
 import PowerDigitSum from '../pages/Power_digit_sum';
+import DigitFifthPowers from '../pages/Digit_fifth_powers';
 
 
 
@@ -36,6 +37,7 @@ const Routes: React.FC = () => {
       <Route exact path="/id-16" component={PowerDigitSum} />
       <Route exact path="/id-17" component={NumberLetterCounts} />
       <Route exact path="/id-25" component={FibonacciDigit1000} />
+      <Route exact path="/id-30" component={DigitFifthPowers} />
     </Switch>
   )
 }
