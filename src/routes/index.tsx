@@ -16,8 +16,7 @@ import SpecialPythagoreanTriplet from '../pages/Special_Pythagorean_triplet';
 import SummationPrimes from '../pages/Summation_of_primes';
 import PowerDigitSum from '../pages/Power_digit_sum';
 import DigitFifthPowers from '../pages/Digit_fifth_powers';
-
-
+import LongestCollatzSequence from '../pages/Longest_Collatz_sequence';
 
 const Routes: React.FC = () => {
   return (
@@ -34,11 +33,12 @@ const Routes: React.FC = () => {
       <Route exact path="/id-9" component={SpecialPythagoreanTriplet} />
       <Route exact path="/id-10" component={SummationPrimes} />
       <Route exact path="/id-13" component={Large} />
+      <Route exact path="/id-14" component={LongestCollatzSequence} />
       <Route exact path="/id-16" component={PowerDigitSum} />
       <Route exact path="/id-17" component={NumberLetterCounts} />
       <Route exact path="/id-25" component={FibonacciDigit1000} />
       <Route exact path="/id-30" component={DigitFifthPowers} />
     </Switch>
-  )
-}
-export default Routes
+  );
+};
+export default Routes;
