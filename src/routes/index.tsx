@@ -17,6 +17,8 @@ import SummationPrimes from '../pages/Summation_of_primes';
 import PowerDigitSum from '../pages/Power_digit_sum';
 import DigitFifthPowers from '../pages/Digit_fifth_powers';
 import LongestCollatzSequence from '../pages/Longest_Collatz_sequence';
+import FactorialDigitSum from '../pages/Factorial_digit_sum';
+import AmicableNumbers from '../pages/Amicable_numbers';
 
 const Routes: React.FC = () => {
   return (
@@ -36,6 +38,8 @@ const Routes: React.FC = () => {
       <Route exact path="/id-14" component={LongestCollatzSequence} />
       <Route exact path="/id-16" component={PowerDigitSum} />
       <Route exact path="/id-17" component={NumberLetterCounts} />
+      <Route exact path="/id-20" component={FactorialDigitSum} />
+      <Route exact path="/id-21" component={AmicableNumbers} />
       <Route exact path="/id-25" component={FibonacciDigit1000} />
       <Route exact path="/id-30" component={DigitFifthPowers} />
     </Switch>

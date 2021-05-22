@@ -19,6 +19,8 @@ const Dashboard: React.FC = () => {
       <Link to="/id-14">Exercise-14</Link>
       <Link to="/id-16">Exercise-16</Link>
       <Link to="/id-17">Exercise-17</Link>
+      <Link to="/id-20">Exercise-20</Link>
+      <Link to="/id-21">Exercise-21</Link>
       <Link to="/id-25">Exercise-25</Link>
       <Link to="/id-30">Exercise-30</Link>
     </ExerciseWrapper>
